@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/star" >
+
+        <TextView
+            android:id="@+id/scoreFinal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="60dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Ingrese su nombre..."
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" >
+    </EditText>
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#0099CC"
+        android:gravity="center|center_vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Enviar"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
